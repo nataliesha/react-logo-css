@@ -28,6 +28,31 @@ body {
     background-color: #61DAFB;
   }
 
+  .face {
+    width: 32px;
+    height: 16px;
+    position: absolute;
+    border: 3px solid #282C34;
+    border-top: 0;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    top: 34px;
+    left: 14px;
+  }
+
+  .face:before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color:#282C34;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    box-shadow: 36px 0 #282C34;
+  }
+  
+
   .horizontal {
     border: #61DAFB 3px solid;
     width: 300px;
